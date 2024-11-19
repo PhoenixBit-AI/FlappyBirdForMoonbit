@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "wasm4": "^2.7.0"
+  },
+  "scripts": {
+    "serve": "just dev",
+    "dev": "watchexec -w src 'just build'"
+  }
+}
